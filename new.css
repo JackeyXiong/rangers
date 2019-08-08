@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    border:both;
+}
+.layout{
+    width: 1200px;
+    margin: 0 auto;
+}
+header img{
+    width: 100%;
+    height: 460px;
+}
+nav >ul >li{
+    float: left;
+    width: 16.66%;
+    padding-left: 60px;
+    color:black;
+    font-weight: bold;
+    background-color: rgb(229, 66, 96); 
+    margin-top: 0;
+}
+nav >ul >li:hover{
+    color: lightyellow;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+    background:url(http://p0.so.qhmsg.com/sdr/400__/t01d880563ad2637c55.jpg);
+}
+.photo{
+   margin: 35px;
+}
+.right{
+    float: right;
+    width: 80%;
+    margin-top: 10px;
+    background: url()
+}
+.right h2{
+    text-align: center;
+    
+}
